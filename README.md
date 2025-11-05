@@ -1,15 +1,15 @@
-# TCL-Learning-for-Synthesis-Timing-Analysis-Open-Source-Tools
-This repository documents my TCL scripting journey for synthesis and timing analysis using open-source tools like Yosys and OpenTimer on Ubuntu. It includes insights from the VLSI System Design (VSD) TCL Workshop and shares scripts, notes, and practical experiences in digital design automation.
+# TCL Learning for Synthesis & Timing Analysis using Open-Source Tools
 
-## DAY 1, I have Setup the Lab
+This repository documents my TCL scripting journey for synthesis and timing analysis using open-source tools like Yosys and OpenTimer on Ubuntu.
+It includes insights gained from the VLSI System Design (VSD) TCL Workshop, along with my personal scripts, notes, and practical experiences in digital design automation.
+
+## Day 1 — Lab Setup & Introduction to TCL
 
 Today, is a fun starting and I have learning the basics of TCL,
 
-TCL is abbrevated as Tool Command Language
-
 TCL (Tool Command Language) is a high-level scripting language created by John Ousterhout in the late 1980s.
 
-Usage: TCL is used to scripting and automation in VLSI Industries and config the tools. 
+TCL acts as a “glue language” between tools, enabling flexible and efficient automation across design stages.
 
 ## Advantages of Using TCL in EDA 
 1. Automates repetitive design steps.
