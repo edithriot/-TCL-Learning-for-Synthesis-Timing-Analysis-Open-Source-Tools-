@@ -17,3 +17,4 @@ Usage: TCL is used to scripting and automation in VLSI Industries and config the
 3. Allows parameterized and reusable design scripts.
 4. Integrates easily with tool command consoles.
 5. Enables batch mode execution (no GUI needed).
+ 
