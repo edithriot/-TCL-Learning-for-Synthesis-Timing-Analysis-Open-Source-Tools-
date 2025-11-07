@@ -26,3 +26,5 @@ TCL acts as a “glue language” between tools, enabling flexible and efficient
 ## My Automation Banner — EdithSynth
 As part of my learning journey, I created my own automation banner named EdithSynth. 
 
+<img width="1920" height="940" alt="Screenshot from 2025-11-07 22-55-02" src="https://github.com/user-attachments/assets/e03111b0-5e4d-42c0-81f5-57f50d0a1118" />
+
