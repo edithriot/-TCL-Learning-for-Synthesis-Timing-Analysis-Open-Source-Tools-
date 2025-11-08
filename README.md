@@ -30,10 +30,3 @@ As part of my learning journey, I created my own automation banner named EdithSy
 
 
 
-************** PRE-LAYOUT TIMING RESULTS **************
-
-    -----------        ------- --------------     WNS Setup      FEP Setup       WNS Hold       FEP Hold         WNS RAT        FEP RAT
-    Design Name        Runtime Instance Count    -----------    -----------     ----------     ----------        -------        -------
-    -----------        ------- --------------    -----------    -----------     ----------     ----------        -------        -------
-     openMSP430          6 sec           7477        -0.11ns          34            -0.02ns          5             -0.05ns          2
-
