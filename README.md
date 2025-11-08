@@ -71,5 +71,28 @@ Verified smooth communication between the shell launcher and TCL core.
 
 
 
+Added path verification section in edithsynth.tcl to ensure all required files and directories exist before synthesis.
+
+Implemented automatic output directory creation if it doesn’t already exist.
+
+- Added detailed existence checks for:
+
+  - Early library path
+
+  - Late library path
+
+  - RTL netlist directory
+
+  - Constraints file
+
+Integrated informative success and error messages for each validation.
+
+Began implementation of constraints file parsing using the csv and struct::matrix packages.
+
+Loaded design constraints from the provided CSV file to prepare for SDC (Synopsys Design Constraints) generation.
+
+Verified row and column extraction from the constraints CSV for further synthesis flow setup.
+
+
 
 
