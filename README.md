@@ -50,7 +50,7 @@ As part of my learning journey, I created my own automation banner named EdithSy
 ### OUTPUT IN TERMINAL
 <img width="1920" height="930" alt="DAY 1 Output" src="https://github.com/user-attachments/assets/7a17ff96-5018-4dd0-b199-03186a61ff90" />
 
-## Progress
+## DAY 2 Progress
 
 1. Added TCL script execution section in edithsynth.tcsh to call edithsynth.tcl.
 2. Implemented flow status checks to display success or failure after TCL execution.
