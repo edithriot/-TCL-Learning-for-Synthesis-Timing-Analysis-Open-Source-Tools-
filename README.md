@@ -40,8 +40,69 @@ Verified the basic script execution flow in the terminal.
 As part of my learning journey, I created my own automation banner named EdithSynth. 
 
 ### BANNER CODE
-<img width="1920" height="930" alt="EDITHSYNTH BANNER CODE" src="https://github.com/user-attachments/assets/167dc1e1-e98f-4e69-ad5f-bc6a4bac489a" />
+```
+#!/bin/tcsh -f
+set histchars=""
+# ============================================================================================
+#                   EDITHSYNTH Automation Tool
+# --------------------------------------------------------------------------------------------
+#  Engineer : Tamil Raja Suresh
+#  College  : K.S. Rangasamy College of Technology
+#  Course   : Third Year, Electronics Engineering (VLSI Design and Technology)
+#  Description:
+#     Open-source automation tool for RTL synthesis and timing analysis using TCL scripting.
+#     Developed for self-purpose and educational use.
+# ============================================================================================
 
+# ---------------------------- COLOR DEFINITIONS ---------------------------- #
+set RED      = "\033[1;91m"
+set GREEN    = "\033[1;92m"
+set YELLOW   = "\033[1;93m"
+set BLUE     = "\033[1;94m"
+set MAGENTA  = "\033[1;95m"
+set CYAN     = "\033[1;96m"
+set WHITE    = "\033[1;97m"
+set BOLD     = "\033[1m"
+set DIM      = "\033[2m"
+set RESET    = "\033[0m"
+# ---------------------------------------------------------------------------- #
+
+# ---------------------------- DISPLAY BANNER ---------------------------- #
+echo ""
+echo "${MAGENTA}============================================================================================${RESET}"
+echo "${YELLOW}${BOLD}                   EDITHSYNTH Automation Tool${RESET}"
+echo "${MAGENTA}--------------------------------------------------------------------------------------------${RESET}"
+echo "${CYAN}  Engineer : Tamil Raja Suresh${RESET}"
+echo "${CYAN}  College  : K.S. Rangasamy College of Technology${RESET}"
+echo "${CYAN}  Course   : Third Year, Electronics Engineering (VLSI Design and Technology)${RESET}"
+echo "${MAGENTA}============================================================================================${RESET}"
+echo ""
+echo "${GREEN}${BOLD}\t\t\tE D I T H S Y N T H${RESET}"
+echo ""
+echo "${YELLOW}This is an open-source automation tool created by Engineer Tamil Raja Suresh${RESET}"
+echo "${YELLOW}for RTL synthesis and timing analysis using TCL scripting.${RESET}"
+echo ""
+echo "       ***********************************************"
+echo "       *                                             *"
+echo "       *               E D I T H  V E R S E          *"
+echo "       *                                             *"
+echo "       ***********************************************"
+echo ""
+echo "${CYAN}Welcome to EDITHSYNTH, an open-source automation tool designed for RTL synthesis and timing analysis.${RESET}"
+echo "This tool takes your RTL source code and SDC constraints as input,"
+echo "performs synthesis, and generates a synthesized netlist along with a pre-layout timing report."
+echo "It leverages Yosys for synthesis and OpenTimer for accurate timing analysis."
+echo ""
+echo "Developed for personal use and educational purposes."
+echo "For any queries, contact: ${YELLOW}s.b.tamilraja@gmail.com${RESET}"
+echo "${MAGENTA}--------------------------------------------------------------------------------------------${RESET}"
+echo ""
+echo "${BLUE}[INFO]${RESET} ${GREEN}Messages in green indicate progress.${RESET}"
+echo "${BLUE}[WARN]${RESET} ${YELLOW}Messages in yellow indicate user input or optional info.${RESET}"
+echo "${BLUE}[ERROR]${RESET} ${RED}Messages in red indicate problems or missing files.${RESET}"
+echo "${MAGENTA}--------------------------------------------------------------------------------------------${RESET}"
+# --------------------------------------------------------------------------- #
+```
 
 ### HELP MENU CODE
 <img width="1920" height="930" alt="EDITHSYNTH HELP CODE" src="https://github.com/user-attachments/assets/74ce6298-8c49-499e-a6a0-331da17e13a0" />
@@ -82,7 +143,8 @@ Added path verification section in edithsynth.tcl to ensure all required files a
 
 Implemented automatic output directory creation if it doesn’t already exist.
 
-```- Added detailed existence checks for:
+
+Added detailed existence checks for:
 
   - Early library path
 
@@ -91,14 +153,3 @@ Implemented automatic output directory creation if it doesn’t already exist.
   - RTL netlist directory
 
   - Constraints file
-
-
-
-
-
-
-
-
-
-
-
