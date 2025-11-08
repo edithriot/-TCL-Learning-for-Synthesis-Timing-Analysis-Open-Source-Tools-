@@ -23,10 +23,27 @@ TCL acts as a “glue language” between tools, enabling flexible and efficient
 2. TCL scripts can be harder to debug compared to modern programming languages.
 3. Errors due to dynamic typing may go unnoticed until runtime.
 
+## Progress
+Created the main launcher script edithsynth.tcsh.
+Added a banner section displaying tool name, engineer details, and course information.
+Included an “EDITH VERSE” welcome block introducing the tool.
+Implemented argument validation to ensure a CSV file is provided.
+
+Added a help menu with:
+Tool description and usage instructions
+Required CSV field details
+Example CSV format
+Example command for execution
+
+Verified the basic script execution flow in the terminal.
 ## My Automation Banner — EdithSynth
 As part of my learning journey, I created my own automation banner named EdithSynth. 
 
-<img width="1920" height="940" alt="Screenshot from 2025-11-07 22-55-02" src="https://github.com/user-attachments/assets/e03111b0-5e4d-42c0-81f5-57f50d0a1118" />
+<img width="1920" height="930" alt="EDITHSYNTH BANNER CODE" src="https://github.com/user-attachments/assets/167dc1e1-e98f-4e69-ad5f-bc6a4bac489a" />
+
+<img width="1920" height="930" alt="EDITHSYNTH HELP CODE" src="https://github.com/user-attachments/assets/74ce6298-8c49-499e-a6a0-331da17e13a0" />
+
+
 
 
 
