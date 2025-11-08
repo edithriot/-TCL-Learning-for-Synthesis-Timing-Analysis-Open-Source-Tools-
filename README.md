@@ -82,7 +82,7 @@ Added path verification section in edithsynth.tcl to ensure all required files a
 
 Implemented automatic output directory creation if it doesn’t already exist.
 
-- Added detailed existence checks for:
+```- Added detailed existence checks for:
 
   - Early library path
 
@@ -91,27 +91,6 @@ Implemented automatic output directory creation if it doesn’t already exist.
   - RTL netlist directory
 
   - Constraints file
-
-Integrated informative success and error messages for each validation.
-
-Began implementation of constraints file parsing using the csv and struct::matrix packages.
-
-Loaded design constraints from the provided CSV file to prepare for SDC (Synopsys Design Constraints) generation.
-
-Verified row and column extraction from the constraints CSV for further synthesis flow setup.
-
-## DAY 4 PROGRESS
-
-1. Implemented **clock constraint generation** logic in `edithsynth.tcl`.
-2. Added automated creation of **SDC (Synopsys Design Constraints)** files.
-3. Extracted and processed **clock parameters** from the constraints CSV, including:  
-  - Early and late rise/fall delays  
-  - Early and late rise/fall slews
-4. Integrated logic to generate **create_clock**, **set_clock_transition**, and **set_clock_latency** commands dynamically.
-5. Ensured clock waveform and period values are computed automatically from CSV data.
-6. Extended parsing to handle **input port constraints** for rise/fall delay and slew calculations.
-7. Verified successful dumping of generated SDC file into the specified output directory.
-8. Prepared groundwork for upcoming **input and output port constraint definitions** in the next phase.  
 
 
 
