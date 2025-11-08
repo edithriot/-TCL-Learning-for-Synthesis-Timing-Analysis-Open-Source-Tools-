@@ -127,3 +127,72 @@ echo "${MAGENTA}----------------------------------------------------------------
 **Example Command:**
 ```bash
 ./edithsynth design_config.csv
+
+# ---------------------------- ARGUMENT CHECK ---------------------------- #
+if ($#argv != 1) then
+    echo "${RED}[ERROR]${RESET} Please provide the CSV file."
+    echo "${YELLOW}USAGE:${RESET} ./edithsynth <csv file>"
+    exit 1
+endif
+set file = "$argv[1]"
+if ("$file" == "-help" || "$file" == "--help") then
+    echo "${MAGENTA}============================================================================================${RESET}"
+    echo "${YELLOW}${BOLD}                     EDITHSYNTH HELP MENU${RESET}"
+    echo "${MAGENTA}--------------------------------------------------------------------------------------------${RESET}"
+    echo "${GREEN}Usage:${RESET} ./edithsynth <csv_file>"
+    echo ""
+    echo "${CYAN}Description:${RESET}"
+    echo "  This automation tool reads a CSV configuration file and launches synthesis + timing analysis."
+    echo ""
+    echo "${CYAN}CSV Format:${RESET}"
+    echo "  Each CSV file must include the following fields in order:"
+    echo "   • DesignName"
+    echo "   • OutputDirectory"
+    echo "   • NetlistDirectory"
+    echo "   • EarlyLibraryPath"
+    echo "   • LateLibraryPath"
+    echo "   • ConstraintsFile"
+    echo ""
+    echo "${CYAN}Example CSV Content:${RESET}"
+    echo "  DesignName,OutputDirectory,NetlistDirectory,EarlyLibraryPath,LateLibraryPath,ConstraintsFile"
+    echo "  openMSP430,./output,./rtl,./lib/osu018_stdcells.lib,./lib/osu018_stdcells.lib,./constraints/constraints.csv"    echo ""
+    echo "${CYAN}Execution Example:${RESET}"
+    echo "  ./edithsynth design_config.csv"
+    echo ""
+    echo "${GREEN}Tip:${RESET} Make sure all file paths are correct and accessible."
+    echo "${MAGENTA}--------------------------------------------------------------------------------------------${RESET}"
+    echo "\n${RED}EDITHSYNTH is Signing off...${RESET}"
+    exit 0
+endif
+if (! -f "$file") then
+    echo "${RED}[ERROR]${RESET} Cannot find CSV file '${YELLOW}$file${RESET}' in current directory."
+    echo "Exiting the flow..."
+    exit 1
+endif
+# --------------------------------------------------------------------------- #
+
+
+# ---------------------------- TCL SCRIPT EXECUTION ---------------------------- #
+echo ""
+echo "${GREEN}[INFO]${RESET} Starting EDITHSYNTH Flow..."
+echo "Reading configuration from: ${YELLOW}$file${RESET}"
+echo ""
+
+tclsh edithsynth.tcl "$file"
+set status = $?
+
+echo ""
+if ($status == 0) then
+    echo "${GREEN}[DONE]${RESET} Flow completed successfully!"
+else
+    echo "${RED}[FAIL]${RESET} Flow terminated with errors. Check logs for details."
+endif
+
+echo "${MAGENTA}------------------------------------------------------------${RESET}"
+echo "Generated outputs are available in the configured output directory."
+echo "${MAGENTA}------------------------------------------------------------${RESET}"
+echo ""
+# --------------------------------------------------------------------------- #
+``` 
+
+
