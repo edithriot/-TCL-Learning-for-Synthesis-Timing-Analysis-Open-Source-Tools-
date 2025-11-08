@@ -50,6 +50,24 @@ As part of my learning journey, I created my own automation banner named EdithSy
 ### OUTPUT IN TERMINAL
 <img width="1920" height="930" alt="DAY 1 Output" src="https://github.com/user-attachments/assets/7a17ff96-5018-4dd0-b199-03186a61ff90" />
 
+## Progress
+
+Added TCL script execution section in edithsynth.tcsh to call edithsynth.tcl.
+Implemented flow status checks to display success or failure after TCL execution.
+Added TCL backend file edithsynth.tcl to handle configuration and synthesis setup.
+Created project banner inside edithsynth.tcl with tool details and developer credits.
+Implemented CSV file reading using csv and struct::matrix packages.
+Added validation for CSV input and ensured proper argument usage.
+Displayed parsed configuration parameters such as:
+  DesignName
+  OutputDirectory
+  NetlistDirectory
+  EarlyLibraryPath
+  LateLibraryPath
+  ConstraintsFile
+
+Verified smooth communication between the shell launcher and TCL core.
+
 
 
 
