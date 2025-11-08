@@ -60,11 +60,17 @@ As part of my learning journey, I created my own automation banner named EdithSy
 6. Added validation for CSV input and ensured proper argument usage.
 
 - Displayed parsed configuration parameters such as:
+
   -  **DesignName**
+
   -  **OutputDirectory**
+
   -  **NetlistDirectory**
+
   -  **EarlyLibraryPath**
+
   -  **LateLibraryPath**
+
   -  **ConstraintsFile**
 
 
