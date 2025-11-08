@@ -894,4 +894,5 @@ Generated reports are available under /home/vsduser/edithsynth/outdir_openMSP430
 ------------------------------------------------------------
 Generated outputs are available in the configured output directory.
 ------------------------------------------------------------
-
+```
+### OUTPUTS IN TERMINAL
