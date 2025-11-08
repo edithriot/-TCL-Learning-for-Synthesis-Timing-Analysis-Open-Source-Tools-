@@ -898,11 +898,6 @@ Generated outputs are available in the configured output directory.
 ### OUTPUTS IN TERMINAL
 
 
-<img width="1851" height="696" alt="1" src="https://github.com/user-attachments/assets/d9930a56-112a-4fc0-a9ab-c42cb1d6eab8" />
-
-<img width="1852" height="932" alt="2" src="https://github.com/user-
-attachments/assets/dc839cab-bd82-4781-adeb-a53dc447edf5" />
-
 
 <img width="1852" height="781" alt="3" src="https://github.com/user-attachments/assets/df0ab0d1-2175-4c2b-8a64-53452c241526" />
 
