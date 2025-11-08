@@ -60,12 +60,13 @@ As part of my learning journey, I created my own automation banner named EdithSy
 6. Added validation for CSV input and ensured proper argument usage.
 7. Displayed parsed configuration parameters such as:
 
-   i) DesignName
-  ii) OutputDirectory
- iii) NetlistDirectory
-  iv) EarlyLibraryPath
-   v) LateLibraryPath
-  vi) ConstraintsFile
+  i) **DesignName**  
+ii) **OutputDirectory**  
+iii) **NetlistDirectory**  
+iv) **EarlyLibraryPath**  
+v) **LateLibraryPath**  
+vi) **ConstraintsFile**
+
 
 Verified smooth communication between the shell launcher and TCL core.
 
