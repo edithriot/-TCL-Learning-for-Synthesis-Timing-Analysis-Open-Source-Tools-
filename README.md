@@ -41,8 +41,12 @@ As part of my learning journey, I created my own automation banner named EdithSy
 
 ## BANNER CODE
 <img width="1920" height="930" alt="EDITHSYNTH BANNER CODE" src="https://github.com/user-attachments/assets/167dc1e1-e98f-4e69-ad5f-bc6a4bac489a" />
+
+
 ## HELP MENU CODE
 <img width="1920" height="930" alt="EDITHSYNTH HELP CODE" src="https://github.com/user-attachments/assets/74ce6298-8c49-499e-a6a0-331da17e13a0" />
+
+
 ## OUTPUT IN TERMINAL
 <img width="1920" height="930" alt="DAY 1 Output" src="https://github.com/user-attachments/assets/7a17ff96-5018-4dd0-b199-03186a61ff90" />
 
