@@ -58,14 +58,14 @@ As part of my learning journey, I created my own automation banner named EdithSy
 4. Created project banner inside edithsynth.tcl with tool details and developer credits.
 5. Implemented CSV file reading using csv and struct::matrix packages.
 6. Added validation for CSV input and ensured proper argument usage.
-7. Displayed parsed configuration parameters such as:
+7. - Displayed parsed configuration parameters such as:
 
-  i) **DesignName**  
-ii) **OutputDirectory**  
-iii) **NetlistDirectory**  
-iv) **EarlyLibraryPath**  
-v) **LateLibraryPath**  
-vi) **ConstraintsFile**
+  - i) **DesignName**
+  - ii) **OutputDirectory**
+  - iii) **NetlistDirectory**
+  - iv) **EarlyLibraryPath**
+  - v) **LateLibraryPath**
+  - vi) **ConstraintsFile**
 
 
 Verified smooth communication between the shell launcher and TCL core.
