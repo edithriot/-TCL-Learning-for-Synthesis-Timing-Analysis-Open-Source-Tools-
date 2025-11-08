@@ -28,3 +28,12 @@ As part of my learning journey, I created my own automation banner named EdithSy
 
 <img width="1920" height="940" alt="Screenshot from 2025-11-07 22-55-02" src="https://github.com/user-attachments/assets/e03111b0-5e4d-42c0-81f5-57f50d0a1118" />
 
+
+
+************** PRE-LAYOUT TIMING RESULTS **************
+
+    -----------        ------- --------------     WNS Setup      FEP Setup       WNS Hold       FEP Hold         WNS RAT        FEP RAT
+    Design Name        Runtime Instance Count    -----------    -----------     ----------     ----------        -------        -------
+    -----------        ------- --------------    -----------    -----------     ----------     ----------        -------        -------
+     openMSP430          6 sec           7477        -0.11ns          34            -0.02ns          5             -0.05ns          2
+
