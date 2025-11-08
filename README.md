@@ -40,7 +40,7 @@ Verified the basic script execution flow in the terminal.
 As part of my learning journey, I created my own automation banner named EdithSynth. 
 
 ### BANNER CODE
-```
+```bash
 #!/bin/tcsh -f
 set histchars=""
 # ============================================================================================
