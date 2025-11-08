@@ -102,16 +102,16 @@ Verified row and column extraction from the constraints CSV for further synthesi
 
 ## DAY 4 PROGRESS
 
-Implemented **clock constraint generation** logic in `edithsynth.tcl`.  
- Added automated creation of **SDC (Synopsys Design Constraints)** files.  
-  Extracted and processed **clock parameters** from the constraints CSV, including:  
+1. Implemented **clock constraint generation** logic in `edithsynth.tcl`.
+2. Added automated creation of **SDC (Synopsys Design Constraints)** files.
+3. Extracted and processed **clock parameters** from the constraints CSV, including:  
   - Early and late rise/fall delays  
-  - Early and late rise/fall slews  
-  Integrated logic to generate **create_clock**, **set_clock_transition**, and **set_clock_latency** commands dynamically.  
-  Ensured clock waveform and period values are computed automatically from CSV data.  
-  Extended parsing to handle **input port constraints** for rise/fall delay and slew calculations.  
-  Verified successful dumping of generated SDC file into the specified output directory.  
-  Prepared groundwork for upcoming **input and output port constraint definitions** in the next phase.  
+  - Early and late rise/fall slews
+4. Integrated logic to generate **create_clock**, **set_clock_transition**, and **set_clock_latency** commands dynamically.
+5. Ensured clock waveform and period values are computed automatically from CSV data.
+6. Extended parsing to handle **input port constraints** for rise/fall delay and slew calculations.
+7. Verified successful dumping of generated SDC file into the specified output directory.
+8. Prepared groundwork for upcoming **input and output port constraint definitions** in the next phase.  
 
 
 
