@@ -896,3 +896,21 @@ Generated outputs are available in the configured output directory.
 ------------------------------------------------------------
 ```
 ### OUTPUTS IN TERMINAL
+
+
+<img width="1851" height="696" alt="1" src="https://github.com/user-attachments/assets/d9930a56-112a-4fc0-a9ab-c42cb1d6eab8" />
+
+<img width="1852" height="932" alt="2" src="https://github.com/user-
+attachments/assets/dc839cab-bd82-4781-adeb-a53dc447edf5" />
+
+
+<img width="1852" height="781" alt="3" src="https://github.com/user-attachments/assets/df0ab0d1-2175-4c2b-8a64-53452c241526" />
+
+<img width="1851" height="437" alt="4" src="https://github.com/user-attachments/assets/6b21bd14-1a6e-46fb-a1b1-b177a6c43a15" />
+
+<img width="1852" height="311" alt="5" src="https://github.com/user-attachments/assets/8d6beb4e-aeb7-4473-af31-401487276af3" />
+
+<img width="1852" height="751" alt="6" src="https://github.com/user-attachments/assets/e757aa61-c987-46ac-8e60-d7e44d496fbd" />
+
+<img width="1851" height="743" alt="7" src="https://github.com/user-attachments/assets/767f031d-69f7-4e76-bd3b-d2ac368a76ee" />
+
