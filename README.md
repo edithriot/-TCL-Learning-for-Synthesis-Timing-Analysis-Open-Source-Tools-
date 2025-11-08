@@ -111,7 +111,7 @@ echo "${MAGENTA}----------------------------------------------------------------
 ### OUTPUT IN TERMINAL
 <img width="1920" height="930" alt="DAY 1 Output" src="https://github.com/user-attachments/assets/7a17ff96-5018-4dd0-b199-03186a61ff90" />
 
-### 🗓️ **Day 2 Progress**
+### **Day 2 Progress**
 - Added **TCL script execution and flow control** in `edithsynth.tcsh`.  
 - Implemented **argument validation** to ensure the user provides a CSV file.  
 - Added **help menu** (`-help` / `--help`) explaining:  
