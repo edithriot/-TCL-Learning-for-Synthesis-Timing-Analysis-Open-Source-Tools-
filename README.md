@@ -111,45 +111,19 @@ echo "${MAGENTA}----------------------------------------------------------------
 ### OUTPUT IN TERMINAL
 <img width="1920" height="930" alt="DAY 1 Output" src="https://github.com/user-attachments/assets/7a17ff96-5018-4dd0-b199-03186a61ff90" />
 
-## DAY 2 Progress
+### 🗓️ **Day 2 Progress**
+- Added **TCL script execution and flow control** in `edithsynth.tcsh`.  
+- Implemented **argument validation** to ensure the user provides a CSV file.  
+- Added **help menu** (`-help` / `--help`) explaining:  
+  - Tool description  
+  - Required CSV fields  
+  - Example CSV content  
+  - Example execution command  
+- Integrated **error handling** for missing or invalid CSV files.  
+- Connected shell script with the **TCL core (`edithsynth.tcl`)** for synthesis and timing flow.  
+- Added **status verification** after TCL execution to display `[DONE]` or `[FAIL]` messages.  
+- Displayed information on where generated outputs are stored.  
 
-1. Added TCL script execution section in edithsynth.tcsh to call edithsynth.tcl.
-2. Implemented flow status checks to display success or failure after TCL execution.
-3. Added TCL backend file edithsynth.tcl to handle configuration and synthesis setup.
-4. Created project banner inside edithsynth.tcl with tool details and developer credits.
-5. Implemented CSV file reading using csv and struct::matrix packages.
-6. Added validation for CSV input and ensured proper argument usage.
-
-- Displayed parsed configuration parameters such as:
-
-  -  **DesignName**
-
-  -  **OutputDirectory**
-
-  -  **NetlistDirectory**
-
-  -  **EarlyLibraryPath**
-
-  -  **LateLibraryPath**
-
-  -  **ConstraintsFile**
-
-
-Verified smooth communication between the shell launcher and TCL core.
-
-
-
-Added path verification section in edithsynth.tcl to ensure all required files and directories exist before synthesis.
-
-Implemented automatic output directory creation if it doesn’t already exist.
-
-
-Added detailed existence checks for:
-
-  - Early library path
-
-  - Late library path
-
-  - RTL netlist directory
-
-  - Constraints file
+**Example Command:**
+```bash
+./edithsynth design_config.csv
