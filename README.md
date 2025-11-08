@@ -765,11 +765,16 @@ puts "Results stored at $OutputDirectory/$DesignName.results"
 - Marked the successful completion of the **EDITHSYNTH Automation Flow**.  
 
 ### Output Summary Format
-| Design Name | Runtime | Instance Count | WNS Setup | FEP Setup | WNS Hold | FEP Hold | WNS RAT | FEP RAT |
-|--------------|----------|----------------|------------|------------|-----------|-----------|----------|----------|
-| openMSP430   | 6 sec    | 7477           | -0.12ns    | 5          | -0.03ns   | 2         | 0.15ns   | 0        |
+```bash
+==============================================================
+************** PRE-LAYOUT TIMING RESULTS **************
 
-> ✅ *All results are generated automatically after the synthesis and STA flow.*
+    -----------        ------- --------------     WNS Setup      FEP Setup       WNS Hold       FEP Hold         WNS RAT        FEP RAT
+    Design Name        Runtime Instance Count    -----------    -----------     ----------     ----------        -------        -------
+    -----------        ------- --------------    -----------    -----------     ----------     ----------        -------        -------
+     openMSP430          7 sec           7477   -10.851179ns              1    -0.168275ns           9999              -              0
+    -----------        ------- --------------    -----------    -----------     ----------     ----------        -------        -------
+```
 
 ### Code
 ```bash
@@ -869,3 +874,24 @@ puts "\n${GREEN}${GREEN}EDITHSYNTH Info:${RESET}${RESET} Flow completed successf
 puts "Generated reports are available under $OutputDirectory/"
 puts "${CYAN}--------------------------------------------------------------${RESET}\n"
 ```
+### Output Summary
+
+```bash
+==============================================================
+************** PRE-LAYOUT TIMING RESULTS **************
+
+    -----------        ------- --------------     WNS Setup      FEP Setup       WNS Hold       FEP Hold         WNS RAT        FEP RAT
+    Design Name        Runtime Instance Count    -----------    -----------     ----------     ----------        -------        -------
+    -----------        ------- --------------    -----------    -----------     ----------     ----------        -------        -------
+     openMSP430          7 sec           7477   -10.851179ns              1    -0.168275ns           9999              -              0
+    -----------        ------- --------------    -----------    -----------     ----------     ----------        -------        -------
+
+EDITHSYNTH Info: Flow completed successfully!
+Generated reports are available under /home/vsduser/edithsynth/outdir_openMSP430/
+--------------------------------------------------------------
+
+[DONE] Flow completed successfully!
+------------------------------------------------------------
+Generated outputs are available in the configured output directory.
+------------------------------------------------------------
+
